@@ -3,7 +3,7 @@
 
 
 body{
-    box-sizing: border-box;
+   
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -20,20 +20,6 @@ body{
 .bg-color1{
     background-color: #FFFFFF;
 }
-.bg-color2{
-
-}
-
-/*========= =====
-==== start header part ====
- ===============*/
-nav{
-    
-}
-
-/*========= =====
-==== End header part ====
- ===============*/
 
 /*==============
  start our package 
@@ -79,4 +65,21 @@ nav{
     box-sizing: border-box;
     border-radius: 5px;
     margin: 10px;
+}
+footer{
+    background: #0B0D17;
+    height: 20em;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.logo1{
+    width: 120px;
+    height: 60px;
+}
+.logo2{
+    width: 100px;
+    height: 40px;
 }
