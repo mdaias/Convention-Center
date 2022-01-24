@@ -3,7 +3,7 @@
 
 
 body{
-   
+    box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -53,19 +53,10 @@ body{
  start our package 
  ===============*/
 
-/*========== Frequently Asked Question========= */
-.FAQ{
-    background-color: burlywood;
-    position: sticky;
-}
-.FAQ-child{
-    padding: 20px 24px;
-    background: #FFFFFF;
-    border: 1px solid #D5E5FB;
-    box-sizing: border-box;
-    border-radius: 5px;
-    margin: 10px;
-}
+/*==========
+ Frequently Asked Question
+ ========= */
+
 footer{
     background: #0B0D17;
     height: 20em;
