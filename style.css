@@ -1,24 +1,72 @@
-nav{
-    height: 0px;
-}
-.banner{
-    width:100% ;
-    height: calc(100vh-80px);
-}
-/* start our package  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap');
 
-/* .normal-card{
-    height: 387px;
-    width: 200px;
+
+
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+/* coustom color */
+.h-color{
+
+}
+.h-font{
+    font-family: 'Bebas Neue', cursive;
+}
+.h-fs{
+
+}
+.bg-color1{
+    background-color: #FFFFFF;
+}
+.bg-color2{
+
+}
+
+/*========= =====
+==== start header part ====
+ ===============*/
+nav{
+    
+}
+
+/*========= =====
+==== End header part ====
+ ===============*/
+
+/*==============
+ start our package 
+ ===============*/
+.button-style{
+    background-color: #F496D1;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    border-radius: 24px;
+    color: #3F87F5;
+    
+}
+.button-style1{
+    background: #FFFFFF;
+    border-radius: 24px;
+    color: #3F87F5;
+    padding: 5px 40px;
+    margin: 10px;
+    align-items:center ;
+    font-weight: bold;
 }
 .vip-card{
-    background-color: #3F87F5;
-    height: 480px;
+    margin-top: -50px;
+    background: #3F87F5;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
     border-radius: 26px;
-    margin: -20px;
-    width: 250px;
-} */
+    padding: 15px 30px;
+}
+
+/*==============
+ start our package 
+ ===============*/
+
 /*========== Frequently Asked Question========= */
 .FAQ{
     background-color: burlywood;
@@ -30,5 +78,5 @@ nav{
     border: 1px solid #D5E5FB;
     box-sizing: border-box;
     border-radius: 5px;
-   margin: 10px;
+    margin: 10px;
 }
